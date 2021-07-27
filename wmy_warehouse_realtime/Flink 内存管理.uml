@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.Serializable</OriginalElement>
+  <nodes>
+    <node x="326.0" y="172.0">org.apache.flink.runtime.util.config.memory.jobmanager.JobManagerFlinkMemory</node>
+    <node x="0.0" y="172.0">org.apache.flink.runtime.util.config.memory.taskmanager.TaskExecutorFlinkMemory</node>
+    <node x="224.5" y="86.0">org.apache.flink.runtime.util.config.memory.FlinkMemory</node>
+    <node x="219.0" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.flink.runtime.util.config.memory.FlinkMemory" target="java.io.Serializable">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="org.apache.flink.runtime.util.config.memory.jobmanager.JobManagerFlinkMemory" target="org.apache.flink.runtime.util.config.memory.FlinkMemory">
+      <point x="0.0" y="-18.0" />
+      <point x="468.0" y="147.0" />
+      <point x="353.5" y="147.0" />
+      <point x="43.0" y="18.0" />
+    </edge>
+    <edge source="org.apache.flink.runtime.util.config.memory.taskmanager.TaskExecutorFlinkMemory" target="org.apache.flink.runtime.util.config.memory.FlinkMemory">
+      <point x="0.0" y="-18.0" />
+      <point x="153.0" y="147.0" />
+      <point x="267.5" y="147.0" />
+      <point x="-43.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-95.0" y="18.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
